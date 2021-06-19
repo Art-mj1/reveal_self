@@ -1,0 +1,168 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+ol,
+ul {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+ color: #444;
+}
+
+.wrap {
+ width: 100%;
+ height: auto;
+}
+
+#topbar {
+ padding: 10px 0;
+ border-bottom: 1px solid #eee;
+ font-size: 14px;
+}
+
+#topbar .center {
+ display: flex;
+ justify-content: space-between;
+}
+
+#topbar .contact-info {
+ display: flex;
+ align-items: center;
+ padding: 0 10px;
+}
+
+#topbar .contact-info a {
+ color: #555;
+ font-size: 14px;
+}
+
+#topbar .contact-info a:hover {
+ color: #50d8af;
+}
+
+#topbar .contact-info i {
+ color: #50d8af;
+ padding: 4px;
+}
+
+#topbar .contact-info i.fa-phone {
+ padding-left: 20px;
+ border-left: 1px solid #e9e9e9;
+ margin-left: 20px;
+}
+
+#topbar .social links {
+ display: flex;
+}
+
+#topbar .social-links a {
+ color: #555;
+ padding: 4px 12px;
+ border-left: 1px solid #e9e9e9;
+}
+
+#topbar .social-links a:first-child {
+ border-left: 0;
+}
+
+#topbar .social-links a:hover {
+ color: #50d8af;
+}
+
+#header {
+ padding: 20px 0;
+ background: #fff;
+ box-shadow: 0 3px 5px rgba(0, 0, 0, 0.06);
+ z-index: 9999;
+ position: relative;
+}
+
+#header .center {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.gnb {
+ display: flex;
+ align-items: center;
+}
+
+.gnb li a {
+ width: 100%;
+ justify-content: space-between;
+ padding: 10px 20px;
+ font-size: 14px;
+}
+
+#banner {
+ width: 100%;
+ height: 60vh;
+ background: url(../img/intro-carousel/1.jpg) no-repeat 0 0;
+ background-size: cover;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#banner .overlay {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(255, 255, 255, 0.5);
+ z-index: 10;
+}
+
+#banner #intro {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ z-index: 11;
+}
+
+#banner .second-contents h2 {
+
+ font-weight: 700%;
+ font-size: 50px;
+ color: blue;
+ margin: 0 0 40px 0;
+}
+
+#banner .second-contents h2 span {
+ color: #50d8af;
+}
+
+#banner #intro .btn {
+ font-family: "Raleway";
+ font-size: 15px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ padding: 10px 32px;
+ border-radius: 2px;
+ margin: 10px;
+ color: #fff;
+ border: 2px solid #0c2e8a;
+ background: #0c2e8a;
+}
+
+#banner #intro .btn.finish-project {
+ font-family: "Raleway";
+ font-size: 15px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ padding: 10px 32px;
+ border-radius: 2px;
+ margin: 10px;
+ color: #fff;
+ border: 2px solid #50d8af;
+ background: #50d8af;
+}
